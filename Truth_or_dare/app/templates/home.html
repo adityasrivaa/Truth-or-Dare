@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth or Dare</title>
+    <link rel="stylesheet" href="{% static "style.css" %}">
+</head>
+<body>
+    <div class="home-container">
+        <h1>Truth Dare Game</h1>
+        <div class="btn-container">
+            <button class="truth-btn btn">Truth</button>
+            <button class="dare-btn btn">Dare</button>
+        </div>
+        <div class="display-container">
+            <p class="text">Click any above button...</p>
+        </div>
+    </div>
+    <script src="{% static "script.js" %}"></script>
+</body>
+</html>
